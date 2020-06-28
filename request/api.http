@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl":"https://www.google.com/search?q=example+of+long+url&oq=example+of+long+url&aqs=chrome..69i57.7545j0j8&sourceid=chrome&ie=UTF-8"
+}
